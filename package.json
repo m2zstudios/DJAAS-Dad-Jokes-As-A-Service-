@@ -1,0 +1,16 @@
+{
+  "name": "dad-jokes-as-a-service",
+  "version": "1.0.0",
+  "description": "Simple API that returns random dad jokes (English + Hinglish).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Meraz Ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.0.0",
+    "cors": "^2.8.5"
+  }
+}
